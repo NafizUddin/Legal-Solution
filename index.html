@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Solution</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "prime-color": "#B68C5A",
+              "des-color": "#707070",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      .garamond {
+        font-family: "EB Garamond", serif;
+      }
+      .back-gradient {
+        background: linear-gradient(0deg, #111 0%, rgba(17, 17, 17, 0) 100%);
+        background-blend-mode: overlay;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="md:container mx-auto">
+      <!-- navbar section -->
+      <div class="navbar py-4">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="text-xl fle"> <img src="./images/logo2.png" alt="" /></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-des-color text-lg">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Cases</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-prime-color text-white">Free Consultation</a>
+        </div>
+      </div>
+
+      <!-- Banner section -->
+      <section>
+        <div
+          class="hero min-h-screen"
+          style="background-image: url('./images/banner.png')"
+        >
+          <div class="hero-overlay bg-opacity-0 back-gradient"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="space-y-6">
+              <h1
+                class="mb-5 text-5xl md:text-7xl lg:w-[675px] garamond font-bold"
+              >
+                We Provide Effective <br />
+                Legal Solutions
+              </h1>
+              <p class="mb-5 lg:w-[675px] poppins">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <form action="">
+                <input
+                  class="rounded-lg lg:w-[500px] p-4 mr-4 poppins text-[#A0A0A0]"
+                  type="search"
+                  name=""
+                  id=""
+                  placeholder="Search Your Services"
+                />
+                <input
+                  class="py-4 px-8 bg-prime-color rounded-lg text-xl font-semibold poppins"
+                  type="submit"
+                  value="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
