@@ -41,6 +41,7 @@
       .back-gradient {
         background: linear-gradient(0deg, #111 0%, rgba(17, 17, 17, 0) 100%);
         background-blend-mode: overlay;
+        background-size: contain;
       }
     </style>
   </head>
@@ -96,7 +97,7 @@
       <!-- Banner section -->
       <section>
         <div
-          class="hero min-h-screen"
+          class="hero min-h-screen lg:min-h-[calc(100vh-92px)]"
           style="background-image: url('./images/banner.png')"
         >
           <div class="hero-overlay bg-opacity-0 back-gradient"></div>
