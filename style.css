@@ -1,0 +1,40 @@
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.garamond {
+    font-family: "EB Garamond", serif;
+}
+
+.back-gradient {
+    background: linear-gradient(0deg, #111 0%, rgba(17, 17, 17, 0) 100%);
+    background-blend-mode: overlay;
+    background-size: contain;
+}
+
+.back-img-1 {
+    background: url('./images/slider-1.jpg');
+    background-color: rgba(0, 0, 0, 0.601);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.back-img-2 {
+    background: url('./images/slider-2.jpg');
+    background-color: rgba(0, 0, 0, 0.601);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.back-img-3 {
+    background: url('./images/slider-3.jpg');
+    background-color: rgba(0, 0, 0, 0.601);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.carousel-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
